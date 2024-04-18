@@ -49,10 +49,6 @@ Route::get('/pengajuanbarangsuperadmin', function () {
     return view('rolesuperadmin.contentsuperadmin.pengajuanbarang');
 })->name('pengajuanbarangsuperadmin');
 
-Route::get('/tambahpengajuansuperadmin', function () {
-    return view('rolesuperadmin.contentsuperadmin.tambahpengajuan');
-})->name('tambahpengajuansuperadmin');
-
 Route::get('/tambahpenggunasuperadmin', function () {
     return view('rolesuperadmin.contentsuperadmin.tambahpengguna');
 })->name('tambahpenggunasuperadmin');

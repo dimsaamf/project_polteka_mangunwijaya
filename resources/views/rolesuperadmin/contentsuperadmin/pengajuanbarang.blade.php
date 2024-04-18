@@ -22,11 +22,6 @@
     <section class="text-hitam-polteka">
         <div>
         <h2 class="text-xl font-semibold">Pengajuan Barang</h2>
-        <div class="justify-start mt-5">
-            <a href="{{ route('tambahpengajuansuperadmin') }}" class="w-[170px] mb-3 rounded-md px-3 py-2 text-sm bg-merah200-polteka text-putih-polteka shadow-sm">
-                Tambah Pengajuan
-            </a>
-        </div>
 
         <!-- BEGIN: Data List --> 
         <div class="flex flex-col mt-5">
